@@ -1,0 +1,13 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+scipy
+wordcloud
+textblob
+TQDM
+NLTK
+collections
+pyLDAvis
+gensim
