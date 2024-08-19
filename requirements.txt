@@ -7,7 +7,6 @@ scipy
 wordcloud
 textblob
 TQDM
-collections
 pyLDAvis
 gensim
 streamlit
