@@ -7,11 +7,10 @@ scipy
 wordcloud
 textblob
 TQDM
-NLTK
 collections
 pyLDAvis
 gensim
 streamlit
 pandas
-nltk
+nltk==3.5
 
