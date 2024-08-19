@@ -6,3 +6,5 @@ Rubric for Milestone 1: Data Collection, pre-processing, and model POC
 - Data Tokenization
 - Stop Words, Removal & Stemming/Lemmatization
 - Model POC
+
+## Project Requirements
