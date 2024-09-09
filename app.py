@@ -12,6 +12,18 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import nltk
 
+
+import nltk
+
+# Ensure NLTK stopwords are downloaded
+nltk.download('stopwords')
+
+from nltk.corpus import stopwords
+
+# Now you can use stopwords
+stop_words = set(stopwords.words('english'))
+
+
 # Set the NLTK data path to include the custom stopwords and WordNet folders
 nltk.data.path.append('corpora/stopwords')
 nltk.data.path.append('corpora/wordnet')
