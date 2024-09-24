@@ -18,29 +18,34 @@ Demo|Link
 ## Demo App
 
 Check out the deployed Streamlit app for live predictions here.
-Libraries Used
 
-- Numpy
-- Pandas
-- Matplotlib
-    Seaborn
-    Re
-    NLTK
-    TensorFlow
-    Hugging Face's Transformers Library
-    Streamlit
-Git Clone and Run the App
+## Libraries Used
+- pandas
+- numpy
+- seaborn
+- matplotlib
+- scikit-learn
+- scipy
+- wordcloud
+- textblob
+- TQDM
+- pyLDAvis
+- gensim
+- streamlit
+- nltk==3.5
 
-Clone the Repository
+## Git Clone and Run the App
 
-git clone https://github.com/JacobJ215/Sentiment-Analysis-with-DistilBERT.git
+1. Clone the Repository
 
-Install Dependencies
+       git clone https://github.com/JacobJ215/Sentiment-Analysis-with-DistilBERT.git
 
-pip install -r requirements.txt
+2. Install Dependencies
 
-Run the App
+       pip install -r requirements.txt
 
-streamlit run app.py
+3. Run the App
+
+       streamlit run app.py
 
 
