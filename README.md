@@ -1,35 +1,46 @@
+## Sentiment Analysis - Amazon Polarity
+## Overview
+
+This sentiment analysis project focuses on understanding and classifying the sentiment expressed in product reviews. The project encompasses three distinct phases, each contributing to the comprehensive sentiment analysis pipeline. Leveraging a subset of the amazon_polarity dataset, the project employs two powerful models: an LSTM model with GloVe embeddings and a fine-tuned DistilBERT. The LSTM model achieved an accuracy of 80.40%, while the DistilBERT model outperformed with an impressive 90.75% accuracy. Additionally, a user-friendly Streamlit app was developed to provide real-time sentiment analysis capabilities, ensuring seamless deployment for end-users.
+
+Phase 1: Exploratory Data Analysis (EDA) and LSTM Model
+
+Phase 2: Fine-tuning DistilBERT
+
+Phase 3: Streamlit App Deployment
+
+GitHub|Link
+
+Notebooks|Link
+
+Demo|Link
+
+## Demo App
+
+Check out the deployed Streamlit app for live predictions here.
+Libraries Used
+
+- Numpy
+- Pandas
+- Matplotlib
+    Seaborn
+    Re
+    NLTK
+    TensorFlow
+    Hugging Face's Transformers Library
+    Streamlit
+Git Clone and Run the App
+
+Clone the Repository
+
+git clone https://github.com/JacobJ215/Sentiment-Analysis-with-DistilBERT.git
+
+Install Dependencies
+
+pip install -r requirements.txt
+
+Run the App
+
+streamlit run app.py
 
 
-
-## Project Description
-
-    The Covid_vaccine-tweet-analytics-app is a Streamlit web application that uses pre-trained models from Huggingface to classify the sentiment of tweets related to Covid-19 vaccines.
-
-    The app allows users to enter a keyword or phrase related to Covid-19 vaccines and displays the sentiment analysis of the resulting tweets in real-time.
-
-    The models used in the app include BERT, RoBERTa, and DistilBERT, which are state-of-the-art natural language processing models.
-
-    More details on the modelling can be found here and here
-
-    The app also includes a visualization of the sentiment analysis results, allowing users to easily see the distribution of positive, negative, and neutral tweets related to Covid-19 vaccines.
-
-## END TO END NLP PROJECT
-
-Rubric for Milestone 1: Data Collection, pre-processing, and model POC
-- Data Collection: 
-- Data Cleaning 
-- Data Tokenization
-- Stop Words, Removal & Stemming/Lemmatization
-- Model POC
-
-
-## Setup
-## Installation
-
-Download or Clone the repository and navigate to the project directory using the following command:
-
-git clone https://github.com/aliduabubakari/Streamlit-grocery-sales-prediction-app
-
-Install the required packages to be able to run the evaluation locally.
-
-You need to have Python 3 on your system (a Python version lower than 3.10). Then you can clone this repo and being at the repo's root :: repository_name> ... follow the steps below:
