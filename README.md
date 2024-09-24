@@ -21,3 +21,15 @@ Rubric for Milestone 1: Data Collection, pre-processing, and model POC
 - Data Tokenization
 - Stop Words, Removal & Stemming/Lemmatization
 - Model POC
+
+
+## Setup
+## Installation
+
+Download or Clone the repository and navigate to the project directory using the following command:
+
+git clone https://github.com/aliduabubakari/Streamlit-grocery-sales-prediction-app
+
+Install the required packages to be able to run the evaluation locally.
+
+You need to have Python 3 on your system (a Python version lower than 3.10). Then you can clone this repo and being at the repo's root :: repository_name> ... follow the steps below:
