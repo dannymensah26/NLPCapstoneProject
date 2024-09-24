@@ -38,7 +38,7 @@ Check out the deployed Streamlit app for live predictions here.
 
 1. Clone the Repository
 
-       git clone https://github.com/JacobJ215/Sentiment-Analysis-with-DistilBERT.git
+       git clone https://github.com/dannymensah26/NLPCapstoneProject.git
 
 2. Install Dependencies
 
